@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/diffrss",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Diff structured JSON rss payloads without a heavyweight toolkit.",
+  "bin": {
+    "diffrss": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/diffrss.git"
+  },
+  "homepage": "https://theworker02.github.io/diffrss/",
+  "keywords": [
+    "diff",
+    "rss",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
